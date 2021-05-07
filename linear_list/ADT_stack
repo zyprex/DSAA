@@ -1,0 +1,10 @@
+ADT Stack {
+  init(&S)
+  destroy(&S)
+  empty(&S)
+  length(S)
+  getTop(S)
+  push(&S, elem)
+  pop(&S, &e)
+  traverse(S, visit())
+} ADT Stack

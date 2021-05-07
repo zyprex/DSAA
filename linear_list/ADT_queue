@@ -1,0 +1,9 @@
+ADT Queue {
+  init(&S)
+  destroy(&S)
+  empty(&S)
+  length(S)
+  enQueue(&S, elem)
+  deQueue(&S, &e)
+  traverse(S, visit())
+} ADT Queue

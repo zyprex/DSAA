@@ -1,0 +1,12 @@
+ADT List {
+  init(&L)
+  destroy(&L)
+  clear(&L)
+  isEmpty(L)
+  length(L)
+  getElem(L, pos, &elem) 
+  locateElem(L, elem, compare())
+  insert(&L, pos, ins_elem)
+  delete(&L, pos, &del_elem)
+  traverse(L, visit())
+} ADT List

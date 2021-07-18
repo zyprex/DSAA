@@ -1,0 +1,17 @@
+ADT Tree {
+  init(&T)
+  destroy(&T)
+  create(&T, def)
+  clear(&T)
+  isEmpty(T)
+  depth(T)
+  root(T)
+  value(T, cur_node)
+  assign(T, cur_node, val)
+  parent(T, cur_node)
+  leftChild(T, cur_node)
+  rightChild(T, cur_node)
+  insertChild(&T, &p, i, c)
+  deleteChild(&T, &p, i)
+  traverse(T, visit())
+} ADT Tree
